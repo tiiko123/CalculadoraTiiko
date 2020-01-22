@@ -1,0 +1,55 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="98D8BCA3-A6B4-7FF7-5400-A6B482B77E03" name="Clase">
+<createdBy>fran1</createdBy>
+<createdTime>2020-01-22 21:22:21 UTC</createdTime>
+<ownerDesignName>Practica 5_3</ownerDesignName>
+<engineerTo>
+<item key="CDC1A35B-36BB-9502-882D-C3AB119AC9DB" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Codigo clase" id="C8E6B57A-78D8-6C8A-98C3-57D58CAF6BC9">
+<createdBy>fran1</createdBy>
+<createdTime>2020-01-22 21:25:24 UTC</createdTime>
+<ownerDesignName>Practica 5_3</ownerDesignName>
+<engineerTo>
+<item key="CDC1A35B-36BB-9502-882D-C3AB119AC9DB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nombre" id="2D323704-C96F-9932-FECF-533C20FA3F6A">
+<createdBy>fran1</createdBy>
+<createdTime>2020-01-22 21:31:32 UTC</createdTime>
+<ownerDesignName>Practica 5_3</ownerDesignName>
+<engineerTo>
+<item key="CDC1A35B-36BB-9502-882D-C3AB119AC9DB" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E8606F7C-FCA3-85C8-B977-BC1C457927DE" name="mama PK">
+<createdBy>fran1</createdBy>
+<createdTime>2020-01-22 21:25:37 UTC</createdTime>
+<ownerDesignName>Practica 5_3</ownerDesignName>
+<engineerTo>
+<item key="CDC1A35B-36BB-9502-882D-C3AB119AC9DB" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C8E6B57A-78D8-6C8A-98C3-57D58CAF6BC9</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

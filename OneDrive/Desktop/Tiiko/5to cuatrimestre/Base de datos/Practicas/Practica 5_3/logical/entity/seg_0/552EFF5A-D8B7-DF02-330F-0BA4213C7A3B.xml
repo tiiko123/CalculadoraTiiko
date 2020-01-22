@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="552EFF5A-D8B7-DF02-330F-0BA4213C7A3B" name="Supervisar">
+<createdBy>fran1</createdBy>
+<createdTime>2020-01-22 21:22:24 UTC</createdTime>
+<ownerDesignName>Practica 5_3</ownerDesignName>
+<engineerTo>
+<item key="CDC1A35B-36BB-9502-882D-C3AB119AC9DB" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Clave" id="DEDC96E7-558D-01BC-C674-DC287F5C5013">
+<createdBy>fran1</createdBy>
+<createdTime>2020-01-22 21:25:21 UTC</createdTime>
+<generatorID>4A1B6ACE-772F-5316-873F-2120F4D5C081</generatorID>
+<ownerDesignName>Practica 5_3</ownerDesignName>
+<engineerTo>
+<item key="CDC1A35B-36BB-9502-882D-C3AB119AC9DB" value="true"/>
+</engineerTo>
+<referedAttribute>7FB3C13C-77CD-08C3-B5E1-F592022CC1B0</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Codigo clase" id="77232EE5-7600-85EF-1891-1D3F425F8AFF">
+<createdBy>fran1</createdBy>
+<createdTime>2020-01-22 21:25:37 UTC</createdTime>
+<generatorID>DC5D685C-6410-2891-B12A-F45DB0425F25</generatorID>
+<ownerDesignName>Practica 5_3</ownerDesignName>
+<engineerTo>
+<item key="CDC1A35B-36BB-9502-882D-C3AB119AC9DB" value="true"/>
+</engineerTo>
+<referedAttribute>C8E6B57A-78D8-6C8A-98C3-57D58CAF6BC9</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="029CED5F-091B-9AF3-6124-757206B27690" name="hijo PK">
+<createdBy>fran1</createdBy>
+<createdTime>2020-01-22 21:25:19 UTC</createdTime>
+<ownerDesignName>Practica 5_3</ownerDesignName>
+<engineerTo>
+<item key="CDC1A35B-36BB-9502-882D-C3AB119AC9DB" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>DEDC96E7-558D-01BC-C674-DC287F5C5013</attributeRef>
+<attributeRef>77232EE5-7600-85EF-1891-1D3F425F8AFF</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
