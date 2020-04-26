@@ -1,0 +1,32 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4E517ABE-760C-387A-132A-696026CE82AB" name="PERSONA_MORAL">
+<createdBy>fran1</createdBy>
+<createdTime>2020-01-24 10:03:08 UTC</createdTime>
+<ownerDesignName>Ejercicio</ownerDesignName>
+<engineerTo>
+<item key="9CCFABE3-F5B9-B64A-97B1-E42F93325B5B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>BE586415-76CE-9C3D-D838-2E5F4E3F4EB0</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Nombre_Representante" id="F84F275F-6308-2F48-6D75-A34D35168EA5">
+<createdBy>fran1</createdBy>
+<createdTime>2020-01-24 10:03:25 UTC</createdTime>
+<ownerDesignName>Ejercicio</ownerDesignName>
+<engineerTo>
+<item key="9CCFABE3-F5B9-B64A-97B1-E42F93325B5B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

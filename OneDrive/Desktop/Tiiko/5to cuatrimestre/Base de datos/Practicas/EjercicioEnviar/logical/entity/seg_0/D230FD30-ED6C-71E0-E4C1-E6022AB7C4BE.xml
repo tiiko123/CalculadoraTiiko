@@ -1,0 +1,56 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D230FD30-ED6C-71E0-E4C1-E6022AB7C4BE" name="Prestamo">
+<createdBy>fran1</createdBy>
+<createdTime>2020-01-24 09:37:32 UTC</createdTime>
+<ownerDesignName>EjercicioEnviar</ownerDesignName>
+<engineerTo>
+<item key="9CCFABE3-F5B9-B64A-97B1-E42F93325B5B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Fecha_Solicitado" id="71D1BD97-10AF-D09C-BB63-9D257A9E1D13">
+<createdBy>fran1</createdBy>
+<createdTime>2020-01-24 09:37:38 UTC</createdTime>
+<ownerDesignName>EjercicioEnviar</ownerDesignName>
+<engineerTo>
+<item key="9CCFABE3-F5B9-B64A-97B1-E42F93325B5B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nombre_Empleado_Registro" id="7F0613B0-2333-4B17-ABC8-A2FECEF4C05C">
+<createdBy>fran1</createdBy>
+<createdTime>2020-01-24 09:42:12 UTC</createdTime>
+<ownerDesignName>EjercicioEnviar</ownerDesignName>
+<engineerTo>
+<item key="9CCFABE3-F5B9-B64A-97B1-E42F93325B5B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Tasa_Interes" id="FB3BE21C-2085-A857-C6B6-CAF5E019D402">
+<createdBy>fran1</createdBy>
+<createdTime>2020-01-24 09:43:57 UTC</createdTime>
+<ownerDesignName>EjercicioEnviar</ownerDesignName>
+<engineerTo>
+<item key="9CCFABE3-F5B9-B64A-97B1-E42F93325B5B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

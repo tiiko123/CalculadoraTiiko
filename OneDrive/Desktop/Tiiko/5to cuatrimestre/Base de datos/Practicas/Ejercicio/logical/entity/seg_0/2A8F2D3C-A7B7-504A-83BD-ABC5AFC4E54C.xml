@@ -1,0 +1,57 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2A8F2D3C-A7B7-504A-83BD-ABC5AFC4E54C" name="CUENTA_CREDITO">
+<createdBy>fran1</createdBy>
+<createdTime>2020-01-24 09:15:51 UTC</createdTime>
+<ownerDesignName>Ejercicio</ownerDesignName>
+<engineerTo>
+<item key="9CCFABE3-F5B9-B64A-97B1-E42F93325B5B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>59FCDE4A-1E20-3E62-F63C-7F5BC84DB0F2</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Monto_Aprobado" id="ECCDA6A7-0A34-57F8-8212-D8BEB6243716">
+<createdBy>fran1</createdBy>
+<createdTime>2020-01-24 09:18:47 UTC</createdTime>
+<ownerDesignName>Ejercicio</ownerDesignName>
+<engineerTo>
+<item key="9CCFABE3-F5B9-B64A-97B1-E42F93325B5B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>1000000000</dataTypeScale>
+<ownDataTypeParameters>,5,1000000000</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Dia_Pago_Limite" id="1420F711-721D-BDE0-64CA-046CBA68493C">
+<createdBy>fran1</createdBy>
+<createdTime>2020-01-24 09:22:38 UTC</createdTime>
+<ownerDesignName>Ejercicio</ownerDesignName>
+<engineerTo>
+<item key="9CCFABE3-F5B9-B64A-97B1-E42F93325B5B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="642C8BE8-DABE-22FB-A029-CE73EB7BE648" name="CUENTA_CREDITO PK">
+<createdBy>fran1</createdBy>
+<createdTime>2020-01-24 09:17:36 UTC</createdTime>
+<ownerDesignName>Ejercicio</ownerDesignName>
+<engineerTo>
+<item key="9CCFABE3-F5B9-B64A-97B1-E42F93325B5B" value="true"/>
+</engineerTo>
+<pk>true</pk>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,108 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F7584A82-13C9-7BA7-0957-593AA6EFD88F" name="CONABAN">
+<createdBy>fran1</createdBy>
+<createdTime>2020-01-23 16:25:16 UTC</createdTime>
+<ownerDesignName>EjercicioEnviar</ownerDesignName>
+<engineerTo>
+<item key="9CCFABE3-F5B9-B64A-97B1-E42F93325B5B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Nombre" id="793C8D46-5723-F2C5-A17B-DC33BE27985C">
+<createdBy>fran1</createdBy>
+<createdTime>2020-01-23 16:26:02 UTC</createdTime>
+<ownerDesignName>EjercicioEnviar</ownerDesignName>
+<engineerTo>
+<item key="9CCFABE3-F5B9-B64A-97B1-E42F93325B5B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="RFC" id="ABFCCAA4-8067-5DAD-7995-649EE0B96173">
+<createdBy>fran1</createdBy>
+<createdTime>2020-01-23 16:26:22 UTC</createdTime>
+<ownerDesignName>EjercicioEnviar</ownerDesignName>
+<engineerTo>
+<item key="9CCFABE3-F5B9-B64A-97B1-E42F93325B5B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>13</dataTypeSize>
+<ownDataTypeParameters>13,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Fecha_Operaciones" id="E68C6484-160D-359A-74F5-064A57ECF7E0">
+<createdBy>fran1</createdBy>
+<createdTime>2020-01-23 16:27:08 UTC</createdTime>
+<ownerDesignName>EjercicioEnviar</ownerDesignName>
+<engineerTo>
+<item key="9CCFABE3-F5B9-B64A-97B1-E42F93325B5B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Direcciones" id="F8FC85FB-8042-F6C2-EA13-39F593FE2597">
+<createdBy>fran1</createdBy>
+<createdTime>2020-01-23 16:27:39 UTC</createdTime>
+<ownerDesignName>EjercicioEnviar</ownerDesignName>
+<engineerTo>
+<item key="9CCFABE3-F5B9-B64A-97B1-E42F93325B5B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="N_Sucursal" id="5D3C4EC8-F3EE-279C-8E14-9C3C8B68544F">
+<createdBy>fran1</createdBy>
+<createdTime>2020-01-23 16:29:00 UTC</createdTime>
+<ownerDesignName>EjercicioEnviar</ownerDesignName>
+<engineerTo>
+<item key="9CCFABE3-F5B9-B64A-97B1-E42F93325B5B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Gerente" id="4B34908A-DB23-22AA-A7B8-08FE95F691E5">
+<createdBy>fran1</createdBy>
+<createdTime>2020-01-23 16:29:45 UTC</createdTime>
+<ownerDesignName>EjercicioEnviar</ownerDesignName>
+<engineerTo>
+<item key="9CCFABE3-F5B9-B64A-97B1-E42F93325B5B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Dirección_Sucursal" id="78BC4EC7-E734-805D-7E39-FDDE6D173D9D">
+<createdBy>fran1</createdBy>
+<createdTime>2020-01-23 16:30:01 UTC</createdTime>
+<ownerDesignName>EjercicioEnviar</ownerDesignName>
+<engineerTo>
+<item key="9CCFABE3-F5B9-B64A-97B1-E42F93325B5B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>
